@@ -1,0 +1,25 @@
+About.js
+import React from "react";
+
+export default function About() {
+  return (
+    <div className="p-6 max-w-3xl mx-auto">
+      <h1 className="text-3xl font-bold mb-4">About Plan B for Men</h1>
+      <p className="mb-4">
+        Plan B for Men was created as a practical and emotional support system
+        for men going through the most disruptive moments of their lives —
+        divorce, separation, or significant relationship transitions.
+      </p>
+      <p className="mb-4">
+        Our mission is to offer not just guidance, but action — through
+        short-term live-in support, strategic planning, therapy referrals, and
+        lifestyle restructuring. We help you recover, reset, and reclaim your
+        future.
+      </p>
+      <p>
+        This isn’t about looking back. It’s about building what’s next —
+        stronger, smarter, and with a Plan B that works.
+      </p>
+    </div>
+  );
+}
