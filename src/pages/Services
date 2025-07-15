@@ -1,0 +1,30 @@
+// src/pages/Services.js
+
+import React from "react";
+
+export default function Services() {
+  return (
+    <div className="p-6">
+      <h1 className="text-3xl font-bold mb-4">Our Services</h1>
+      <p className="mb-4">
+        Plan B for Men offers comprehensive services to support men facing relationship breakdowns or life transitions.
+      </p>
+      <ul className="list-disc list-inside space-y-2">
+        <li>Live-in companionship during emotional recovery</li>
+        <li>Legal resource navigation and support</li>
+        <li>Private counseling and therapy coordination</li>
+        <li>Lifestyle reset retreats and travel options</li>
+        <li>Custom exit strategy planning and asset protection</li>
+        <li>Ongoing check-ins and mental wellness monitoring</li>
+      </ul>
+    </div>
+  );
+}
+✅ Once you've added this file to src/pages/, make sure App.js includes this route like so:
+
+jsx
+Copy
+Edit
+import Services from "./pages/Services";
+
+<Route path="/services" element={<Services />} />
